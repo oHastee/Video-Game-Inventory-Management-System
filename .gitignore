@@ -1,0 +1,52 @@
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+
+# Ignore build output
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency directories
+packages/
+
+# Ignore compiled files
+*.cache
+*.ilk
+*.idb
+*.tlog
+*.manifest
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore configuration files
+appsettings.json
+appsettings.Development.json
+
+# Ignore compiled test results
+TestResults/
+*.ncb
+*.sdf
+*.opensdf
+
+# Ignore logs and database files
+*.db
+*.sqlite
+*.ldb
+*.log
+
+
+#Ignore Word documents
+*.docx
